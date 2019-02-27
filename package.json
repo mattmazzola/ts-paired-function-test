@@ -1,0 +1,19 @@
+{
+  "name": "ts-paired-function-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Matt Mazzola",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.3.3333"
+  }
+}
