@@ -1,5 +1,7 @@
-export type FunctionA<T> = (...args: string[]) => Promise<T | void>
-export type FunctionB<T> = (result: T, ...args: string[]) => Promise<string>
+export default {}
+
+type FunctionA<T> = (...args: string[]) => Promise<T | void>
+type FunctionB<T> = (result: T, ...args: string[]) => Promise<string>
 
 interface IPairedFunctions<T> {
     name: string

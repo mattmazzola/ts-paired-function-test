@@ -1,6 +1,8 @@
-export type FunctionAVoid = (...args: string[]) => Promise<void>
-export type FunctionA<T> = (...args: string[]) => Promise<T>
-export type FunctionB<T> = (result: T, ...args: string[]) => Promise<string>
+export default {}
+
+type FunctionAVoid = (...args: string[]) => Promise<void>
+type FunctionA<T> = (...args: string[]) => Promise<T>
+type FunctionB<T> = (result: T, ...args: string[]) => Promise<string>
 
 interface IFuncName {
     name: string
